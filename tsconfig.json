@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "target": "es2015",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}

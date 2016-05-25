@@ -1,0 +1,10 @@
+{
+  "presets": [],
+  "env": {
+    "test": {
+      "plugins": [
+        "babel-plugin-empower-assert"
+      ]
+    }
+  }
+}
