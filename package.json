@@ -1,10 +1,11 @@
 {
   "name": "named-object-map",
   "version": "1.0.0",
-  "description": "",
+  "description": "Map of object which has `name` property",
   "main": "index.js",
   "scripts": {
     "build": "tsc -p .",
+    "prepublish": "npm run build",
     "test": "NODE_ENV=test mocha --compilers ts:espower-typescript-babel/guess test/**/*.ts"
   },
   "repository": {
@@ -12,7 +13,7 @@
     "url": "git+https://github.com/KOBA789/named-object-map.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "KOBA789 <kobahide789@gmail.com> (http://koba789.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/KOBA789/named-object-map/issues"
